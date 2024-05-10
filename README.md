@@ -6,9 +6,13 @@ the string with that length. Ignore punctuation and assume sen will not be empty
 numbers, for example "Hello world123 567"
 
 Examples
+
 Input: "fun&!! time"
+
 Output: time
 
+_______________________________
 
 Input: "I love dogs"
-Outbut: love 
+
+Output: love 
