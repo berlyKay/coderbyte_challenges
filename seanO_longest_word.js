@@ -9,13 +9,14 @@ function LongestWord(sen) {
         let wordle = true;
   
         for (let j = 0; j< word.length; j++) {
-  
+  // This looks to me what the includes() method would basically do. I like that you solved it without using the method. Nice!!
          if (word[j] === ";" || word[j] === ":" || word[j] === ":" || word[j] === ","|| word[j] === "<"|| word[j] ==="/"|| word[j] ==="?"|| word[j] ==="-"||word[j] === "~"||word[j] === "0"|| word[j]==="!"|| word[j]=== "@"||word[j]=== "#"|| word[j]==="$"||word[j]=== "%"|| word[j] === "^"|| word[j] === "&"|| word[j] === "*"){wordle = false};
         }
         if (wordle === true){newArr.push(arr[i])}
   
       }
     }
+//kudos on using a function inside a function
     search(senArr)
   
   
@@ -27,7 +28,8 @@ function LongestWord(sen) {
         answer = newArr[i];
       }
     }
-  
+  //Do you already use short-cuts like ctrl + shft + k?  That one deletes whatever line you're on. I use it alot!!
+  // Shift + Alt + down arrow is another favorite of mine.
      
     return answer; 
   }
